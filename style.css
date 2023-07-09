@@ -90,6 +90,9 @@ main {
   font-weight: 400;
   line-height: 26px;
 }
+ul {
+    list-style-image: url('images/check\ 1.svg');
+  }
 
 /* my plan section style */
 .myplan-heading {
@@ -192,6 +195,10 @@ footer {
   border: 1px solid #fff;
   background: #151414;
 }
+::placeholder {
+    color: #F3F3F3;
+    opacity: 1; /* Firefox */
+  }
 .icons a{
     margin-right: 20px;
   }
