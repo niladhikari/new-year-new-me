@@ -20,6 +20,11 @@ body {
   border: none;
   background: #f15b22;
   padding: 20px 25px;
+  cursor: pointer;
+}
+.primary-btn:hover{
+background-color: #e6e3e3;
+color: #f15b22;
 }
 
 section {
@@ -31,6 +36,7 @@ section {
   text-align: right;
   background-size: cover;
   margin-bottom: 140px;
+  width: 100%;
 }
 .header-section {
   padding: 230px 230px 160px 845px;
@@ -48,6 +54,7 @@ section {
 /* main style */
 main {
   background-color: #fff;
+  width: 100%;
 }
 
 /* my-failures of previous year */
@@ -110,7 +117,7 @@ main {
 
 /*postive style  */
 .positive-container {
-  background-image: linear-gradient( 90deg, #f15b22 0%, rgba(241, 91, 34, 0) 100%),url("images/watch.png");
+  background-image: linear-gradient(  90deg, #f15b22 0%, rgba(241, 91, 34, 0) 100%),url("images/watch.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -132,5 +139,59 @@ main {
   border-radius: 5px;
   background: #fff;
   border: none;
-  padding: 21px 36px;
+  padding: 16px 26px;
+  cursor: pointer;
 }
+.positive-btn:hover{
+    color:#fff;
+    background-color: #f15b22;
+}
+
+/* footer style */
+footer {
+  background: #151414;
+  width: 100%;
+}
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  padding: 130px 230px;
+}
+.footer-tital {
+  color: #f8f8f8;
+  font-size: 45px;
+  font-weight: 700;
+}
+.footer-discription {
+  padding-right: 331px;
+  color: #fff;
+  font-family: Work Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+ 
+}
+.fotdis{
+  
+}
+.Subscribe {
+  color: #fff;
+  font-size: 30px;
+  font-weight: 600;
+}
+.form,input[type="email"] {
+  display: block;
+  margin-bottom: 25px;
+  padding: 15px 0px 15px 15px;
+  color: #f3f3f3;
+  font-size: 16px;
+  font-weight: 400;
+  width: 250px;
+  line-height: 28px;
+  border-radius: 8px;
+  border: 1px solid #fff;
+  background: #151414;
+}
+.icons a{
+    margin-right: 20px;
+  }
